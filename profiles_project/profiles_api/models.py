@@ -29,7 +29,8 @@ class UserProfileManager(BaseUserManager):
         user.save(using=self._db)
 
         return user
-
+ 
+ #adding test commit
 
 class UserProfile(AbstractBaseUser, PermissionsMixin):
     """Database model for users in the system"""
