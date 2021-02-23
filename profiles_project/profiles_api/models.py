@@ -29,6 +29,7 @@ class UserProfileManager(BaseUserManager):
         user.save(using=self._db)
 
         return user
+
 #initial commit
 
 class UserProfile(AbstractBaseUser, PermissionsMixin):
