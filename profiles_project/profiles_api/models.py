@@ -56,4 +56,5 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
         """Return string representaion of our user"""
         return self.email
 
-        #adding seconf        
+        #adding seconf
+        # third        
