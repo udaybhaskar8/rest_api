@@ -53,4 +53,6 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         """Return string representaion of our user"""
+
+        """another commit"""
         return self.email        
